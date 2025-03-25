@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor Color Code Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Resistor Color Code Calculator</h2>
+        <label>Band 1:</label>
+        <select id="band1"></select>
+        <label>Band 2:</label>
+        <select id="band2"></select>
+        <label>Multiplier:</label>
+        <select id="multiplier"></select>
+        <label>Tolerance:</label>
+        <select id="tolerance"></select>
+        <button onclick="calculateResistance()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
