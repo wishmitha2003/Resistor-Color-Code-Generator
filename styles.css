@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background: url('https://files.oaiusercontent.com/file-GEp1UKSJ1cig4v9mFQewzT?se=2025-03-25T17%3A01%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D07f48efa-86a0-4716-ab49-7f7369ddae2e.webp&sig=7vZ44R6JEsFc%2B/KMN2TtU1V4Sz8nfj8wjrZTZe4czeo%3D') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgb(107, 228, 138);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +20,7 @@ body {
 }
 
 h2 {
-    color: #333;
+    color: #1f1e1e;
     margin-bottom: 20px;
 }
 
@@ -45,7 +46,7 @@ button {
     padding: 10px;
     font-size: 16px;
     color: white;
-    background: #007BFF;
+    background: #11cc30;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -54,7 +55,7 @@ button {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #057a22;
 }
 
 .result {
