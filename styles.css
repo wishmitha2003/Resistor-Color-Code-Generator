@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: url('https://files.oaiusercontent.com/file-GEp1UKSJ1cig4v9mFQewzT?se=2025-03-25T17%3A01%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D07f48efa-86a0-4716-ab49-7f7369ddae2e.webp&sig=7vZ44R6JEsFc%2B/KMN2TtU1V4Sz8nfj8wjrZTZe4czeo%3D') no-repeat center center fixed;
+    background: url('https://img.pikbest.com/photo/20240529/modern-3d-electronic-circuit-board-technology-background_10588506.jpg!w700wp') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: rgb(107, 228, 138);
+    background: linear-gradient(#E6C16A, #E6C16A, #DAB060, #CE9F56, #C28E4D,  #bd5b2d);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -18,6 +18,7 @@ body {
     width: 100%;
     text-align: center;
 }
+
 
 h2 {
     color: #1f1e1e;
@@ -46,7 +47,7 @@ button {
     padding: 10px;
     font-size: 16px;
     color: white;
-    background: #11cc30;
+    background: #f84600;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -55,7 +56,7 @@ button {
 }
 
 button:hover {
-    background: #057a22;
+    background: #c24f02;
 }
 
 .result {
