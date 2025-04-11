@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background: url('https://img.pikbest.com/photo/20240529/modern-3d-electronic-circuit-board-technology-background_10588506.jpg!w700wp') no-repeat center center fixed;
     background-size: cover;
     display: flex;
@@ -10,20 +10,37 @@ body {
 }
 
 .container {
-    background: linear-gradient(#E6C16A, #E6C16A, #DAB060, #CE9F56, #C28E4D,  #bd5b2d);
+    background: linear-gradient(#e0b03eec, #E6C16A, #DAB060, #CE9F56, #C28E4D, #df6e39);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    max-width: 360px;
     width: 100%;
     text-align: center;
+    transition: box-shadow 0.3s ease;
 }
 
+.container:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
 
 h2 {
     color: #1f1e1e;
     margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow:
+        1px 1px 0 #d9ad5b,
+        2px 2px 0 #c58e39,
+        3px 3px 0 #a57228;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease;
 }
+
+h2:hover {
+    transform: scale(1.05);
+}
+
 
 label {
     display: block;
@@ -35,29 +52,43 @@ label {
 select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #e9801d;
     border-radius: 5px;
     margin-top: 5px;
-    font-size: 16px;
-    background: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background: #ffe9ba;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+select:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 button {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     color: white;
-    background: #f84600;
+    background: #f0a607;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
-    transition: background 0.3s;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, font-size 0.3s ease;
+    -webkit-text-fill-color: white;
 }
 
 button:hover {
-    background: #c24f02;
+    background: #d78f05; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    font-size: 23px;
+    transform: scale(1.02);
 }
+
 
 .result {
     font-size: 18px;
@@ -67,4 +98,10 @@ button:hover {
     padding: 10px;
     background: #e9ecef;
     border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+.result:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
 }
