@@ -1,1 +1,1 @@
-# Resistor-Color-Code-Generator
+# Resistor-Color-Code-Calculator
